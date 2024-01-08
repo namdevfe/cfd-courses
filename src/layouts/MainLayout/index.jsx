@@ -14,7 +14,6 @@ const MainLayout = () => {
     <>
       <MainContextProvider>
         <AuthContextProvider>
-          <PageLoading />
           <Header />
           <Navbar />
           <Overlay />

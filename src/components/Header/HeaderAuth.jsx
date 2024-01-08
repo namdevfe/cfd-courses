@@ -48,7 +48,7 @@ const HeaderAuth = () => {
 
   if (!!!isLogin) {
     return (
-      <div class="header__auth">
+      <div className="header__auth">
         <a
           // href="javascript:void(0)"
           className="btn btn--transparent btnmodal"
